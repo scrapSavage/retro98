@@ -1,4 +1,4 @@
-[gd_resource type="Theme" load_steps=121 format=3 uid="uid://dyg5pk2j88kib"]
+[gd_resource type="Theme" load_steps=122 format=3 uid="uid://dyg5pk2j88kib"]
 
 [ext_resource type="FontFile" uid="uid://cxddx4nmhr3x4" path="res://retro_theme/PixelOperator.ttf" id="1_jvitm"]
 [ext_resource type="Texture2D" uid="uid://dlbxsemuxks3s" path="res://retro_theme/textures/button_bg.png" id="2_8mtbf"]
@@ -388,6 +388,13 @@ texture_margin_top = 2.16209
 texture_margin_right = 2.02696
 texture_margin_bottom = 1.89183
 
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_wgu87"]
+texture = ExtResource("3_km2kf")
+texture_margin_left = 2.0
+texture_margin_top = 2.0
+texture_margin_right = 2.0
+texture_margin_bottom = 2.0
+
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_p3r5a"]
 texture = ExtResource("7_7ivv6")
 texture_margin_left = 2.0
@@ -740,6 +747,7 @@ PopupMenu/icons/unchecked = ExtResource("7_7ivv6")
 PopupMenu/icons/unchecked_disabled = ExtResource("2_k6vwp")
 PopupMenu/styles/hover = SubResource("StyleBoxFlat_s4qt4")
 PopupMenu/styles/panel = SubResource("StyleBoxTexture_ltflh")
+PopupPanel/styles/panel = SubResource("StyleBoxTexture_wgu87")
 ProgressBar/colors/font_color = Color(1, 1, 1, 1)
 ProgressBar/colors/font_outline_color = Color(0, 0, 0, 1)
 ProgressBar/constants/outline_size = 4
